@@ -17,8 +17,10 @@ body {
   margin: 0 auto;
   background-color: #5c5c5c;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 2.8)),
-    url(https://images.pexels.com/photos/4081086/pexels-photo-4081086.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)
-      no-repeat;
+    url(./bg.jpg) no-repeat;
+  // background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 2.8)),
+  //   url(https://images.pexels.com/photos/4081086/pexels-photo-4081086.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)
+  //     no-repeat;
 }
 
 // header
