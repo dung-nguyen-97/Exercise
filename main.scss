@@ -346,6 +346,7 @@ body {
         }
       }
       textarea {
+        width: 100%;
         margin-bottom: 5px;
         padding: 10px;
         background-color: #222222;
@@ -445,6 +446,14 @@ body {
   }
   .work__items {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .carousel__items__detail-left {
+    h1 {
+      font-size: 2.3rem;
+    }
+    p {
+      font-size: 0.8rem;
+    }
   }
   .carousel__items__detail-right {
     width: 350px;
