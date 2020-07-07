@@ -7,11 +7,6 @@
   font-size: 15px;
 }
 
-@font-face {
-  font-family: Georgia;
-  src: url(./font/georgia.woff);
-}
-
 body {
   position: relative;
   margin: 0 auto;
@@ -221,7 +216,7 @@ body {
 .work__head__title {
   display: inline-block;
   padding: 12px 15px;
-  background-color: #303030;
+  background-color: #212121;
   border-radius: 10px;
   text-transform: uppercase;
   margin-bottom: 30px;
@@ -235,7 +230,7 @@ body {
   content: "";
   width: calc((960px - 100%) / 2);
   height: 4px;
-  background-color: #303030;
+  background-color: #212121;
   position: absolute;
   left: calc((-960px + 100%) / 2);
   top: 50%;
@@ -245,7 +240,7 @@ body {
   content: "";
   width: calc((960px - 100%) / 2);
   height: 4px;
-  background-color: #303030;
+  background-color: #212121;
   position: absolute;
   right: calc((-960px + 100%) / 2);
   top: 50%;
