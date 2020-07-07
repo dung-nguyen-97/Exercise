@@ -159,7 +159,7 @@ body {
 .service {
   max-width: $max-width;
   margin: 0 auto;
-  margin-top: 60px;
+  // margin-top: 60px;
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(4, 1fr);
@@ -196,7 +196,8 @@ body {
 //work
 .work {
   max-width: $max-width;
-  margin: 40px auto;
+  margin: 0px auto;
+  padding-bottom: 50px;
   text-align: center;
   &__head {
     &__title {
@@ -282,7 +283,7 @@ body {
   max-width: 100%;
 
   margin: 0 auto;
-  background-color: #2c2c2c;
+  background-color: #272727;
   height: auto;
 
   &__content {
