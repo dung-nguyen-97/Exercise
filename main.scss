@@ -98,7 +98,7 @@ body {
       &-left {
         max-width: 313px;
         h1 {
-          font-size: 3rem;
+          font-size: 2.8rem;
           color: white;
         }
         p {
@@ -378,6 +378,8 @@ body {
     }
   }
   &__info {
+    background-color: #212121;
+
     border-top: 1px solid black;
 
     &__content {
